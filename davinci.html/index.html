@@ -1,0 +1,64 @@
+<!DOCTYPE>
+<html>
+
+<head>
+    <title> My Page </title>
+</head>
+
+<body>
+    Hello!
+    <a onclick="webPage('Class')" href="#"> Test 1 </a href> 
+        <script> 
+            var json = [{
+                "Username": "Sasa",
+                "Password": "Srbija"
+            },
+            {
+                "Username": "Rory",
+                "Password": "123"
+            },
+            {
+                "Username": "Michael",
+                "Password": "abc"
+            }];
+
+            var webPage = function (Class) {
+                console.log(Class);
+                var div = document.querySelector('#Info')
+                div.style.color = 'white'
+                div.style.display = 'none'
+                var vid = document.querySelector('#Details')
+                vid.style.display = 'block'
+            };
+
+            var submitPass = function () {
+                var siv = document.querySelector('#UN')
+                console.log(siv.value);
+                var riv = document.querySelector('#PW')
+                console.log(riv.value);
+                for (let x of json) {
+                    console.log(x.Username);
+                    if (siv.value == x.Username && riv.value == x.Password) {
+                        console.log('Yes');
+                        return false;
+                    }
+                    else {
+                        console.log('No');
+                    }
+                }
+                return false;
+            };
+        </script>
+         <div style = "display: none;" id = "Details"> Some text 
+         </div>
+         <div style = "background-color:aqua; display: block;" id = "Info"> Sasa 
+         </div> 
+         <form onsubmit= "submitPass()">
+            Username <br>
+            <input id = "UN"><br>
+            Password <br>
+            <input type="password" name="password" id = "PW"><br><br>
+            <input type="submit" value="Submit"><br>             
+         </form>
+    </body>
+</html>

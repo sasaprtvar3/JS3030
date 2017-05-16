@@ -13,8 +13,12 @@
     "js3030-week2": "^0.1.0",
     "js3030-week3": "^0.1.0",
     "js3030-installation": "^0.1.0",
-    "spiritdependencies": "^0.1.65",
-    "spirittests": "^0.3.17"
+    "spiritcore": "^0.1.0",
+    "spirittests": "^0.3.23",
+    "express": "^4.15.2",
+    "node-games": "^3.0.3",
+    "request": "^2.81.0",
+    "rimraf": "^2.5.4"
   },
   "repository": {
     "type": "git",

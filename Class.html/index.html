@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>title</title>
+  </head>
+  <body>
+        <div style="display:none;" id="login">LOGIN 
+            
+        </div>
+        
+        <div id="index"> 
+            INDEX:<a style="position: absolute;" id="a" href="#" onclick="go('hi!')">LOGIN</a>
+        </div>
+      <script>
+        var j = {
+            "username": "sasa",
+            "password": "123"
+        }
+        console.log(j);
+        function go(blah){
+            console.log('hello world', blah);
+            console.log(document.querySelector("#a"));
+            document.querySelector('#login').style.display = 'block' ;
+            document.querySelector('#index').style.display = 'none' ;
+            //window.location = 'login.html'
+        }
+      </script>
+  </body>
+</html>

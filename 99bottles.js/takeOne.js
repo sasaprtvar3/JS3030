@@ -1,6 +1,7 @@
-function makeTurkeySandwhich() {
-    Get one slice of bread;
-    Add turkey;
-    Put a slice of bread on top;
-}
-
+let bottlesong = function () {
+    for (i = 0; i < bottlesong.length; i++);
+    bottlesong.push(i + ' bottles of beer on the wall');
+    
+    
+};
+console.log(bottlesong); 

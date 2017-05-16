@@ -73,4 +73,4 @@ function filterByDate(books, yearMin, yearMax) {
     
     
 }
-filterByDate(getFirstTenBooks(), 1996, 2007);
+filterByDate(getFirstTenBooks(), 1996, 2008);

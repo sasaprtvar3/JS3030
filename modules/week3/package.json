@@ -10,17 +10,17 @@
         "spec": ">=0.1.0 <0.2.0",
         "type": "range"
       },
-      "/Users/sasaprtvar/Downloads/release/code"
+      "/Users/sasaprtvar/Desktop/code/node_modules"
     ]
   ],
   "_from": "js3030-week3@>=0.1.0 <0.2.0",
-  "_id": "js3030-week3@0.1.8",
+  "_id": "js3030-week3@0.1.15",
   "_inCache": true,
   "_location": "/js3030-week3",
   "_nodeVersion": "6.9.5",
   "_npmOperationalInternal": {
     "host": "packages-18-east.internal.npmjs.com",
-    "tmp": "tmp/js3030-week3-0.1.8.tgz_1489113977075_0.5304220109246671"
+    "tmp": "tmp/js3030-week3-0.1.15.tgz_1490663152693_0.5355878560803831"
   },
   "_npmUser": {
     "name": "spiritway",
@@ -41,11 +41,11 @@
     "#USER",
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/js3030-week3/-/js3030-week3-0.1.8.tgz",
-  "_shasum": "78d8293d61de0c063ef184f885f3220206bb691c",
+  "_resolved": "https://registry.npmjs.org/js3030-week3/-/js3030-week3-0.1.15.tgz",
+  "_shasum": "ed418294c56ff725c9883c3b3613d350b95c1011",
   "_shrinkwrap": null,
   "_spec": "js3030-week3@^0.1.0",
-  "_where": "/Users/sasaprtvar/Downloads/release/code",
+  "_where": "/Users/sasaprtvar/Desktop/code/node_modules",
   "author": {
     "name": "Mike Whitfield",
     "url": "http://mikewhitfield.org"
@@ -65,10 +65,10 @@
   },
   "directories": {},
   "dist": {
-    "shasum": "78d8293d61de0c063ef184f885f3220206bb691c",
-    "tarball": "https://registry.npmjs.org/js3030-week3/-/js3030-week3-0.1.8.tgz"
+    "shasum": "ed418294c56ff725c9883c3b3613d350b95c1011",
+    "tarball": "https://registry.npmjs.org/js3030-week3/-/js3030-week3-0.1.15.tgz"
   },
-  "gitHead": "2eafe958e1959c8d6c75556391347b779f32f28d",
+  "gitHead": "3cf991b32141cf44c66208acb91fd81d85cbf5d3",
   "homepage": "https://bitbucket.org/michaelgwhitfield/javascript3030#readme",
   "keywords": [],
   "maintainers": [
@@ -88,5 +88,5 @@
     "run-tests": "node node_modules/spirittests/index.js",
     "run-testserver": "node node_modules/spirittests/test.server.js"
   },
-  "version": "0.1.8"
+  "version": "0.1.15"
 }

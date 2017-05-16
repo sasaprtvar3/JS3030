@@ -1,8 +1,8 @@
 {
   "folders": [
-    "modules/week2/tests",
-    "modules/week3/tests"
+    "modules/weeks1-2/tests",
+    "modules/weeks3-4/tests",
+    "modules/weeks5-6/tests"
   ],
-  "ua-scope": "JS3030",
-  "ua-uuid": "6c5473a7-2b51-4c2c-9075-054b5d702ddb"
+  "ua-scope": "JS3030"
 }
